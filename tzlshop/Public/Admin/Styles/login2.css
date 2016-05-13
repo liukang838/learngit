@@ -94,7 +94,7 @@ input::-ms-clear {
 .web_login .input-tips {
 	float:left;
 	margin-top:10px;
-	width:50px;
+	width:70px;
 	height:42px;
 	font-size:16px;
 	line-height:42px;
@@ -237,4 +237,3 @@ a.zcxy {text-decoration: underline;line-height:58px;margin-left:15px;color: #959
 .web_login .uinArea {
 height: 60px;}
 .header .switch{left:70px;}
-

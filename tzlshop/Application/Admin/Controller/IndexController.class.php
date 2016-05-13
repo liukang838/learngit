@@ -1,7 +1,7 @@
 <?php
 namespace Admin\Controller;
 use Think\Controller;
-class IndexController extends Controller
+class IndexController extends ParentController
 {
 	public function index()
 	{
@@ -13,6 +13,8 @@ class IndexController extends Controller
 	}
 	public function menu()
 	{
+		$model=D('Admin');
+		$this->assign('menu',$model->getMenu());
 		$this->display('menu');
 	}
 	public function top()
