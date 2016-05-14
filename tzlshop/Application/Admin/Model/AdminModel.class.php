@@ -111,6 +111,7 @@ class AdminModel extends Model
 
 		//把新勾选的角色添加到管理员角色表中
 		$roleId=I('post.role_id');
+		var_dump($roleId);die;
 		foreach ($roleId as $k=>$v)
 		{
 			$arModel->add([

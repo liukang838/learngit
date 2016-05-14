@@ -125,6 +125,7 @@
             <li style="border-right:none"><a href="#">刷新</a></li>
         </ul>
         <div id="send_info">
+            您好，<?=$_SESSION['account']?>
             <a href="#" target="main-frame" class="fix-submenu">清除缓存</a>
             <a href="<?=U('Login/logout')?>" target="_top" class="fix-submenu">退出</a>
         </div>

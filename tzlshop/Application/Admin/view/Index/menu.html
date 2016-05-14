@@ -130,7 +130,7 @@ body {
                   <?php foreach($v['children'] as $k1=>$v1):?>
                     <li class="menu-item">
                       <a href="<?=U($v1['m_name'].'/'.$v1['c_name'].'/'.$v1['a_name'])?>" target="main-frame">
-                      商品列表
+                      <?=$v1['pri_name']?>
                       </a>
                     </li>
                   <?php endforeach;?> 
